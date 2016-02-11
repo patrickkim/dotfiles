@@ -1,0 +1,14 @@
+set t_Co=256
+set cursorline
+
+" Personalized
+colorscheme Tomorrow-Night
+
+" Toggle Dir ala Atom...
+map <D-\> :NERDTreeToggle<CR>
+map <C-\> :NERDTreeToggle<CR>
+
+" How can I close vim if the only window left open is a NERDTree?
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+

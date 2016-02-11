@@ -1,0 +1,5 @@
+Plug 'scrooloose/nerdtree'
+Plug 'airblade/vim-gitgutter'
+
+Plug 'AndrewRadev/vim-eco'
+Plug 'elixir-lang/vim-elixir'
